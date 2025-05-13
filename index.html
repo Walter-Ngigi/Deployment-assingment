@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modern Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 🌐 Navigation -->
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="logo">📝 MyBlog</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Posts</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="post.html">Contact</a></li>
+        <li><button id="theme-toggle">🌗</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 🎯 Hero Section -->
+  <section class="hero">
+    <h1>Welcome to <span class="typed-text"></span></h1>
+    <p>Explore creative, modern ideas worth reading</p>
+  </section>
+
+  <!-- 📖 Blog Cards -->
+  <section class="blog-section">
+    <h2>Latest Posts</h2>
+    <div class="blog-container">
+      <article class="blog-card">
+        <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg" alt="Post 1">
+        <div class="card-content">
+          <h3>Designing for the Future</h3>
+          <p>Learn how to make UI that adapts to user needs.</p>
+          <a href="#">Read More →</a>
+        </div>
+      </article>
+
+      <article class="blog-card">
+        <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg" alt="Post 2">
+        <div class="card-content">
+          <h3>JavaScript Magic</h3>
+          <p>Discover powerful patterns and tips in modern JS.</p>
+          <a href="#">Read More →</a>
+        </div>
+      </article>
+
+      <!-- Add more cards as needed -->
+    </div>
+  </section>
+
+  <!-- 📬 Newsletter Form -->
+  <section class="newsletter">
+    <h2>Join the Newsletter</h2>
+    <form id="signup-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- 🔚 Footer -->
+  <footer class="site-footer">
+    <p></p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
